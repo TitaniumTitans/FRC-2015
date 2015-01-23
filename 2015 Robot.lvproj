@@ -129,6 +129,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
 			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
+			<Item Name="TestEncoder.vi" Type="VI" URL="../TestEncoder.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
