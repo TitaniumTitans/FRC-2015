@@ -689,18 +689,18 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
-			<Item Name="Area Scoring.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2014/examples/FRC/roboRIO/Vision/2015 Vision Example/Vision Support Code/Area Scoring.vi"/>
-			<Item Name="Aspect Ratio Score 2015.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2014/examples/FRC/roboRIO/Vision/2015 Vision Example/Vision Support Code/Aspect Ratio Score 2015.vi"/>
-			<Item Name="Calculate Extraction Rect.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2014/examples/FRC/roboRIO/Vision/2015 Vision Example/Vision Support Code/Calculate Extraction Rect.vi"/>
-			<Item Name="Calculate Particle Scores.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2014/examples/FRC/roboRIO/Vision/2015 Vision Example/Vision Support Code/Calculate Particle Scores.vi"/>
+			<Item Name="Area Scoring.vi" Type="VI" URL="../Vision Support Code/Area Scoring.vi"/>
+			<Item Name="Aspect Ratio Score 2015.vi" Type="VI" URL="../Vision Support Code/Aspect Ratio Score 2015.vi"/>
+			<Item Name="Calculate Extraction Rect.vi" Type="VI" URL="../Vision Support Code/Calculate Extraction Rect.vi"/>
+			<Item Name="Calculate Particle Scores.vi" Type="VI" URL="../Vision Support Code/Calculate Particle Scores.vi"/>
 			<Item Name="Camera Types.ctl" Type="VI" URL="../Vision Support Code/Camera Types.ctl"/>
-			<Item Name="Check for Carpet.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2014/examples/FRC/roboRIO/Vision/2015 Vision Example/Vision Support Code/Check for Carpet.vi"/>
-			<Item Name="Compute DistanceToTarget2.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2014/examples/FRC/roboRIO/Vision/2015 Vision Example/Vision Support Code/Compute DistanceToTarget2.vi"/>
+			<Item Name="Check for Carpet.vi" Type="VI" URL="../Vision Support Code/Check for Carpet.vi"/>
+			<Item Name="Compute DistanceToTarget2.vi" Type="VI" URL="../Vision Support Code/Compute DistanceToTarget2.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Get camera FOVs.vi" Type="VI" URL="../Vision Support Code/Get camera FOVs.vi"/>
-			<Item Name="Label Targets2.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2014/examples/FRC/roboRIO/Vision/2015 Vision Example/Vision Support Code/Label Targets2.vi"/>
+			<Item Name="Label Targets2.vi" Type="VI" URL="../Vision Support Code/Label Targets2.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -713,10 +713,10 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Normalize Coordinates.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2014/examples/FRC/roboRIO/Vision/2015 Vision Example/Vision Support Code/Normalize Coordinates.vi"/>
-			<Item Name="Normalized Range Compare 2015.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2014/examples/FRC/roboRIO/Vision/2015 Vision Example/Vision Support Code/Normalized Range Compare 2015.vi"/>
+			<Item Name="Normalize Coordinates.vi" Type="VI" URL="../Vision Support Code/Normalize Coordinates.vi"/>
+			<Item Name="Normalized Range Compare 2015.vi" Type="VI" URL="../Vision Support Code/Normalized Range Compare 2015.vi"/>
 			<Item Name="Sorted Particle Report 2015.vi" Type="VI" URL="../Vision Support Code/Sorted Particle Report 2015.vi"/>
-			<Item Name="Trapezoid Score 2015.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2014/examples/FRC/roboRIO/Vision/2015 Vision Example/Vision Support Code/Trapezoid Score 2015.vi"/>
+			<Item Name="Trapezoid Score 2015.vi" Type="VI" URL="../Vision Support Code/Trapezoid Score 2015.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
