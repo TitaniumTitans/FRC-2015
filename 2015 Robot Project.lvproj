@@ -59,7 +59,7 @@
 		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
 		<Property Name="target.RTTarget.EnableFileSharing" Type="Bool">true</Property>
 		<Property Name="target.RTTarget.IPAccess" Type="Str">+*</Property>
-		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">false</Property>
+		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">true</Property>
 		<Property Name="target.RTTarget.VIPath" Type="Path">/home/lvuser/natinst/bin</Property>
 		<Property Name="target.server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -129,6 +129,8 @@ AddOutputFilter chunkFilter
 				<Item Name="Drive Action.vi" Type="VI" URL="../Drive Action.vi"/>
 				<Item Name="Lift Action.vi" Type="VI" URL="../Lift Action.vi"/>
 				<Item Name="Lift Safety.vi" Type="VI" URL="../Lift Safety.vi"/>
+				<Item Name="Update Lift Position.vi" Type="VI" URL="../Update Lift Position.vi"/>
+				<Item Name="Drive Saftey.vi" Type="VI" URL="../Drive Saftey.vi"/>
 				<Item Name="Motor Saftey.vi" Type="VI" URL="../Motor Saftey.vi"/>
 				<Item Name="Update Sensors.vi" Type="VI" URL="../Update Sensors.vi"/>
 				<Item Name="User Inputs.vi" Type="VI" URL="../User Inputs.vi"/>
@@ -156,6 +158,7 @@ AddOutputFilter chunkFilter
 			</Item>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="Unknown.vi" Type="VI" URL="../Unknown.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -778,7 +781,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
