@@ -144,6 +144,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Logic VIs" Type="Folder">
 				<Item Name="Clamp.vi" Type="VI" URL="../Clamp.vi"/>
 				<Item Name="Lift.vi" Type="VI" URL="../Lift.vi"/>
+				<Item Name="Toggle 2.vi" Type="VI" URL="../Toggle 2.vi"/>
+				<Item Name="Clamp Upper.vi" Type="VI" URL="../2015 DashBoard/Clamp Upper.vi"/>
 				<Item Name="Tank Custom.vi" Type="VI" URL="../Tank Custom.vi"/>
 				<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
 				<Item Name="Setpoints.vi" Type="VI" URL="../Setpoints.vi"/>
@@ -156,9 +158,9 @@ AddOutputFilter chunkFilter
 				<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 				<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
 			</Item>
+			<Item Name="Unknown.vi" Type="VI" URL="../Unknown.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="Unknown.vi" Type="VI" URL="../Unknown.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -781,7 +783,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
