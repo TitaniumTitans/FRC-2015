@@ -144,7 +144,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Logic VIs" Type="Folder">
 				<Item Name="Clamp.vi" Type="VI" URL="../Clamp.vi"/>
 				<Item Name="Lift.vi" Type="VI" URL="../Lift.vi"/>
-				<Item Name="Toggle 2.vi" Type="VI" URL="../Toggle 2.vi"/>
 				<Item Name="Clamp Upper.vi" Type="VI" URL="../2015 DashBoard/Clamp Upper.vi"/>
 				<Item Name="Tank Custom.vi" Type="VI" URL="../Tank Custom.vi"/>
 				<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
@@ -158,7 +157,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 				<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
 			</Item>
-			<Item Name="Unknown.vi" Type="VI" URL="../Unknown.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -764,6 +762,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Toggle 2.vi" Type="VI" URL="../Toggle 2.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
